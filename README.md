@@ -4,6 +4,13 @@ A Flutter application where I applied the clean architecture principles to make 
 
 The application shows how to handle the flow of data in a Flutter application by using the Single Source of Truth principle, followed by making a local cache for the posts list. The posts data is received from an API created with [mockapi.io](https://mockapi.io).
 
+## Screenshots
+<p align="center">
+  <img src="screenshots/Screenshot_1722182380.png" alt="Posts List Screen" width="200"/>
+  <img src="screenshots/Screenshot_1722182385.png" alt="Post Details" width="200"/>
+  <img src="screenshots/Screenshot_1722182388.png" alt="Add/Edit Post" width="200"/>
+</p>
+
 ## Features
 * Clean Architecture implementation
 * Local caching for posts using Shared Preferences [Note](#note-on-local-caching)
@@ -27,7 +34,7 @@ dev_dependencies:
 ```
 
 ## Project Structure
-```vbnet
+```
 lib/
 ├── core/
 │   ├── error/
